@@ -1,0 +1,30 @@
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="LauncherActivityTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="GroupItemTextColor" parent="TextAppearance.MaterialComponents.Body1">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="GroupTasksProgressBar" parent="">
+        <item name="android:progressBackgroundTint">@color/colorAccentPrimary</item>
+        <item name="android:progressTint">@color/colorSecondary</item>
+    </style>
+    <style name="TasksProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressBackgroundTint">@color/colorWhite</item>
+        <item name="android:progressTint">@color/colorPrimary</item>
+    </style>
+
+</resources>
